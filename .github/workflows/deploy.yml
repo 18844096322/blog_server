@@ -36,7 +36,7 @@ jobs:
           './*' => /www/wwwroot/heavenh.server/
         last_ssh: |
           cd /www/wwwroot/heavenh.server/
-          export PATH=$NODEJS_16_3_0_BIN:$PATH
+          export PATH=$NODEJS_16_20_2_BIN:$PATH
           echo "node: $(node -v)"
           echo "npm: v$(npm -v)"
           nvm use 16
