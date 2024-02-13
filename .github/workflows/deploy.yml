@@ -36,7 +36,7 @@ jobs:
           './*' => /www/wwwroot/heavenh.server/
         last_ssh: |
           cd /www/wwwroot/heavenh.server/
-          ls -al
+          source ~/.nvm/nvm.sh
           nvm use 16
           npm install
           echo "deploy success"
