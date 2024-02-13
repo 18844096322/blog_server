@@ -35,4 +35,7 @@ jobs:
         scp: |
           './*' => /www/wwwroot/heavenh.server/
         last_ssh: |
+          cd /www/wwwroot/heavenh.server/
+          nvm use 16
+          npm run start
           echo "deploy success"
