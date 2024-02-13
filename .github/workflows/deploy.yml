@@ -38,5 +38,4 @@ jobs:
           cd /www/wwwroot/heavenh.server/
           nvm use 16
           npm install
-          # npm run start
           echo "deploy success"
