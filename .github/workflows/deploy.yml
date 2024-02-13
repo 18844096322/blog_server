@@ -31,8 +31,7 @@ jobs:
         pass: ${{ secrets.USER_PASS }}
         connect_timeout: 10s
         first_ssh: |
-          rm -rf /www/wwwroot/heavenh.server
-          mkdir /www/wwwroot/heavenh.server
+          rm -rf /www/wwwroot/heavenh.server/*
         scp: |
           './*' => /www/wwwroot/heavenh.server/
         last_ssh: |
