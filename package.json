@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "nodemon": "^3.0.3"
+  },
+  "name": "koa-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
